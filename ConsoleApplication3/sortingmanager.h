@@ -2,7 +2,7 @@
 #include <iostream>
 namespace Small_Data_Sets {
 	namespace SelectSort_Manager{
-		void selectionSort(int array[]);
+		void selectionSort(int array[], int size);
 	}
 	namespace BubbleSort_Manager{
 

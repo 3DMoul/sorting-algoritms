@@ -1,9 +1,9 @@
 #include "sortingmanager.h"
 
-void Small_Data_Sets::SelectSort_Manager::selectionSort(int array[]){
-	for (int i = 0; i < sizeof(array); i++) {
+void Small_Data_Sets::SelectSort_Manager::selectionSort(int array[], int size){
+	for (int i = 0; i < size; i++) {
 		int min = i;
-		for (int j = i + 1; j < sizeof(array) + 1; j++){
+		for (int j = i + 1; j < size; j++){
 			if (array[min] > array[j]) {
 				min = j;
 			}
